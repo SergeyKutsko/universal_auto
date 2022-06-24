@@ -3,7 +3,7 @@ import csv
 import datetime
 
 def run():
-    with open('seeds/20220501-20220531-payments_order.csv') as file:
+    with open('20220601-20220624-payments_order-___.csv') as file:
         reader = csv.reader(file)
         next(reader)  # Advance past the header
 
